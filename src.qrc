@@ -1,0 +1,32 @@
+<RCC>
+    <qresource prefix="/src">
+        <file>src/Design_sans_titre_2.png</file>
+        <file>src/Home_1.png</file>
+        <file>src/password.png</file>
+        <file>src/facialRec.png</file>
+        <file>src/back.png</file>
+        <file>src/cal.png</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>src/Design_sans_titre_3.png</file>
+        <file>src/71-719933_star-quality-rated-5-star-rating-logo.png</file>
+        <file>src/243987.png</file>
+        <file>src/ajoutfinale.png</file>
+        <file>src/articon.jpg</file>
+        <file>src/contrat png.jpg</file>
+        <file>src/Design_sans_titre_2.png</file>
+        <file>src/eventicon.png</file>
+        <file>src/free-event-processing-calendar-appointment-planner-schedule-reminder-6-5604.webp</file>
+        <file>src/Home_1.png</file>
+        <file>src/logo (2).png</file>
+        <file>src/logo__2_-removebg-preview.png</file>
+        <file>src/maticon.png</file>
+        <file>src/salleicon.png</file>
+        <file>src/search.png</file>
+        <file>src/statsfinale.png</file>
+        <file>src/usersicon.png</file>
+        <file>src/user.svg</file>
+        <file>src/52-523748_the-gallery-for-red-plus-sign-png-plus.png</file>
+        <file>src/icons8-plus-50.png</file>
+    </qresource>
+</RCC>

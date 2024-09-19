@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CalendrierEvents</class>
+ <widget class="QMainWindow" name="CalendrierEvents">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>889</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="events_widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>891</width>
+      <height>601</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+</string>
+    </property>
+    <widget class="QPushButton" name="border2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>871</width>
+       <height>581</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">/*QPushButton {
+    background-color: white;
+    color: darkred;
+    border: 2px solid darkred;
+    border-radius: 50px;
+    padding: 10px; 
+}*/
+QPushButton {
+    background-color: white;
+    color: darkred;
+    border: 2px solid rgb(215, 157, 27);
+    border-radius: 50px;
+    padding: 10px; 
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="qrcode_button">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>670</y>
+       <width>121</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+QPushButton {
+    background-color: darkred;
+    color: white;
+    border: 2px solid darkred;
+    border-radius: 20px; 
+    padding: 10px; 
+}
+
+QPushButton:hover {
+    background-color: red; 
+}
+
+QLineEdit {
+    border: 2px solid darkred;
+    border-radius: 15px; 
+    padding: 5px; 
+    color: white;
+}
+
+QLineEdit:focus {
+    border: 2px solid darkred;
+    border-radius: 15px; 
+    padding: 5px; 
+    color: white;
+}</string>
+     </property>
+     <property name="text">
+      <string>Qr code encoder</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pdf_button">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>670</y>
+       <width>121</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+QPushButton {
+    background-color: darkred;
+    color: white;
+    border: 2px solid darkred;
+    border-radius: 20px; 
+    padding: 10px; 
+}
+
+QPushButton:hover {
+    background-color: red; 
+}
+
+QLineEdit {
+    border: 2px solid darkred;
+    border-radius: 15px; 
+    padding: 5px; 
+    color: white;
+}
+
+QLineEdit:focus {
+    border: 2px solid darkred;
+    border-radius: 15px; 
+    padding: 5px; 
+    color: white;
+}
+</string>
+     </property>
+     <property name="text">
+      <string>PDF/Excel</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="delete_button">
+     <property name="geometry">
+      <rect>
+       <x>850</x>
+       <y>670</y>
+       <width>121</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+QPushButton {
+    background-color: darkred;
+    color: white;
+    border: 2px solid darkred;
+    border-radius: 20px; 
+    padding: 10px; 
+}
+
+QPushButton:hover {
+    background-color: red; 
+}
+
+QLineEdit {
+    border: 2px solid darkred;
+    border-radius: 15px; 
+    padding: 5px; 
+    color: white;
+}
+
+QLineEdit:focus {
+    border: 2px solid darkred;
+    border-radius: 15px; 
+    padding: 5px; 
+    color: white;
+}
+</string>
+     </property>
+     <property name="text">
+      <string>Delete</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="update_button">
+     <property name="geometry">
+      <rect>
+       <x>720</x>
+       <y>670</y>
+       <width>121</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+QPushButton {
+    background-color: darkred;
+    color: white;
+    border: 2px solid darkred;
+    border-radius: 20px; 
+    padding: 10px; 
+}
+
+QPushButton:hover {
+    background-color: red; 
+}
+
+QLineEdit {
+    border: 2px solid darkred;
+    border-radius: 15px; 
+    padding: 5px; 
+    color: white;
+}
+
+QLineEdit:focus {
+    border: 2px solid darkred;
+    border-radius: 15px; 
+    padding: 5px; 
+    color: white;
+}</string>
+     </property>
+     <property name="text">
+      <string>Update</string>
+     </property>
+    </widget>
+    <widget class="QCalendarWidget" name="calendarWidget">
+     <property name="geometry">
+      <rect>
+       <x>430</x>
+       <y>100</y>
+       <width>411</width>
+       <height>351</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QListView" name="listView">
+     <property name="geometry">
+      <rect>
+       <x>35</x>
+       <y>100</y>
+       <width>371</width>
+       <height>431</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_40">
+     <property name="geometry">
+      <rect>
+       <x>730</x>
+       <y>520</y>
+       <width>121</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+QPushButton {
+    background-color: darkred;
+    color: white;
+    border: 2px solid darkred;
+    border-radius: 20px; 
+    padding: 10px; 
+}
+
+QPushButton:hover {
+    background-color: red; 
+}
+
+QLineEdit {
+    border: 2px solid darkred;
+    border-radius: 15px; 
+    padding: 5px; 
+    color: white;
+}
+
+QLineEdit:focus {
+    border: 2px solid darkred;
+    border-radius: 15px; 
+    padding: 5px; 
+    color: white;
+}
+</string>
+     </property>
+     <property name="text">
+      <string>Retour</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
